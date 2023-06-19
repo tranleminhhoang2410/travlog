@@ -1,0 +1,85 @@
+.text-default {
+    font-family: Inter;
+    color: var(--text-default-color);
+    font-weight: 400;
+}
+
+.text-title {
+    font-family: CircularStd;
+    font-weight: 700;
+}
+
+.text-description-medium {
+    font-family: CircularStdMedium;
+    color: var(--text-default-color);
+    font-weight: 450;
+    line-height: 160%;
+}
+
+.text-highlight {
+    color: var(--text-highlight-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-light {
+    color: #eee;
+}
+
+.text-warning {
+    color: var(--warning-color);
+}
+
+.text-small {
+    font-size: var(--sm-font);
+}
+
+.text-medium {
+    font-size: var(--md-font);
+}
+
+.text-large {
+    font-size: var(--lg-font);
+}
+
+.text-extra-large {
+    font-size: var(--xl-font);
+}
+
+.text-name-medium {
+    font-size: var(--name-md-font);
+}
+
+.text-capitalized {
+    text-transform: capitalize;
+}
+
+.text-first-capitalized::first-letter {
+    text-transform: capitalize;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-title-main {
+    margin-bottom: 16px;
+}
+
+.text-title-sub {
+    margin-bottom: 32px;
+}
+
+.text-description {
+    line-height: 160%;
+}
+
+.text-center {
+    text-align: center;
+}

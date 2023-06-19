@@ -1,0 +1,9 @@
+.websites {
+    padding: 64px 0;
+}
+
+.website-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 98.6px;
+}

@@ -1,0 +1,58 @@
+/* Destination Header */
+.destination-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.destination-btn {
+    display: flex;
+}
+
+.destination-btn button:first-child {
+    margin-right: 32px;
+}
+
+/* Destination List */
+.destination-list {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+    gap: 32px;
+}
+
+.destination-item {
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--card-box-shadow);
+}
+
+.destination-info {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.destination-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.destination-name-price {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.destination-name {
+    flex: 0 0 75%;
+}
+
+.destination-rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

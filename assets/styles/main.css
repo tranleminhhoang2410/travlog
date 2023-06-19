@@ -1,0 +1,22 @@
+/* Font */
+@import url('../../assets/styles/font.css');
+
+/* Base styles */
+@import url('../../assets/styles/base/reset.css');
+@import url('../../assets/styles/base/global.css');
+
+/* Component styles */
+@import url('../../assets/styles/components/button.css');
+@import url('../../assets/styles/components/text.css');
+
+/* Section styles*/
+@import url('../../assets/styles/section/header.css');
+@import url('../../assets/styles/section/banner.css');
+@import url('../../assets/styles/section/websites.css');
+@import url('../../assets/styles/section/services.css');
+@import url('../../assets/styles/section/destination.css');
+@import url('../../assets/styles/section/travel.css');
+@import url('../../assets/styles/section/features.css');
+@import url('../../assets/styles/section/testimonials.css');
+@import url('../../assets/styles/section/subscribe.css');
+@import url('../../assets/styles/section/footer.css');

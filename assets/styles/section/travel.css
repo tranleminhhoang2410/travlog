@@ -1,0 +1,33 @@
+.travel {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.travel-point {
+    flex: 0 0 50%;
+}
+
+.travel-heading {
+    margin-bottom: 64px;
+}
+
+.travel-statistic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.travel-details {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid var(--primary-border-color);
+    border-radius: var(--card-border-radius);
+}
+
+.travel-number {
+    font-size: var(--travel-number-font);
+}

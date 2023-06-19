@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-name {
+    margin-left: 16px;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-item {
+    margin: 0 32px;
+}
+
+.navbar-link {
+    color: var(--text-default-color);
+}
+
+.navbar-link:hover,
+.navbar-link.active {
+    color: var(--dark-color);
+}
+
+.header-btn {
+    display: flex;
+}
+
+#login-btn {
+    margin-right: 10px;
+}

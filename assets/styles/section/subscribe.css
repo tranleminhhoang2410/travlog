@@ -1,0 +1,48 @@
+.subscribe-wrapper {
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--card-border-radius);
+    background-color: var(--subscribe-color);
+}
+
+.subscribe-header {
+    margin-bottom: 64px;
+}
+
+.subscribe-header-main {
+    margin-bottom: 32px;
+}
+
+.subscribe-header-sub {
+    font-size: var(--subscribe-header-sub-font);
+    line-height: 66px;
+}
+
+#subscribe-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.input-group {
+    flex: 1;
+    padding: 32px 32px 32px 80px;
+    border-radius: var(--card-border-radius);
+    position: relative;
+    background-color: var(--white-color);
+}
+
+.email-icon {
+    position: absolute;
+    left: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#subscribe-form .submit-btn {
+    padding: 32px 64px;
+    border-radius: var(--card-border-radius);
+    background-color: var(--primary-color);
+    cursor: pointer;
+}

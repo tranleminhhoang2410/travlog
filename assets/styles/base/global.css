@@ -1,0 +1,62 @@
+:root {
+    /* Color */
+    --primary-color: #5d50c6;
+    --secondary-color: #f85e9f;
+    --dark-color: #222831;
+    --warning-color: #ff5722;
+    --schedule-color: #facd49;
+    --white-color: #fff;
+
+    --text-default-color: rgba(25, 24, 37, 0.5);
+    --text-highlight-color: #191825;
+    --footer-link-color: rgba(25, 24, 37, 0.75);
+
+    --button-secondary-border-color: #d9d9d9;
+    --primary-border-color: rgba(25, 24, 37, 0.1);
+
+    --dot-color: rgba(25, 24, 37, 0.05);
+    --subscribe-color: rgba(250, 205, 73, 0.08);
+
+    /* Font size */
+    --sm-font: 18px;
+    --md-font: 23px;
+    --lg-font: 44px;
+    --xl-font: 69px;
+
+    --travel-number-font: 35px;
+    --name-md-font: 28px;
+    --subscribe-header-sub-font: 55px;
+
+    /* Border radius */
+    --btn-border-radius: 100px;
+    --card-border-radius: 32px;
+
+    /* Box-shadow */
+    --button-box-shadow: 0px 81px 32px rgba(0, 0, 0, 0.01), 0px 45px 27px rgba(0, 0, 0, 0.05),
+        0px 20px 20px rgba(0, 0, 0, 0.09), 0px 5px 11px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    --icon-box-shadow: 0px 77px 31px rgba(0, 0, 0, 0.01), 0px 43px 26px rgba(0, 0, 0, 0.05),
+        0px 19px 19px rgba(0, 0, 0, 0.09);
+    --card-box-shadow: 0px 513px 205px rgba(0, 0, 0, 0.01), 0px 288px 173px rgba(0, 0, 0, 0.03),
+        0px 128px 128px rgba(0, 0, 0, 0.04), 0px 32px 71px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    --service-box-shadow: 0px 41px 89px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+
+    /* Width */
+    --default-layout-max-width: 1184px;
+}
+
+.container {
+    max-width: var(--default-layout-max-width);
+    margin: 0 auto;
+}
+
+.section-small {
+    padding: 32px 0;
+}
+
+.section-large {
+    padding: 64px 0;
+}
+
+.section-extra-large {
+    padding: 128px 64px;
+}
